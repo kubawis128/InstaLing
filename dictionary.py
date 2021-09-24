@@ -14,4 +14,6 @@ def getTransFromDict(example_usage):
     global translations
     for translate in translations.split("\n"):
         if str(example_usage) in translate:
-            print(translate.strip().split("$ ",1)[1])
+            return translate.strip().split("$ ",1)[1]
+        elif:
+            Raise

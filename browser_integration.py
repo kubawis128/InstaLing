@@ -31,6 +31,7 @@ def setupPage():
 # Begins Session
 # Loads into session
 def beginSession():
+    dictionary.readDict()
     content = driver.find_element_by_class_name('sesion')
     driver.get(content.get_attribute("href"))
     WebDriverWait(driver, 1000).until(EC.invvisibility_of(driver.find_element_by_class_name('big_button')))
@@ -39,3 +40,5 @@ def beginSession():
 def start():
     pol_word = driver.find_element_by_class_name('translations').text
     example_usage = driver.find_element_by_class_name('usage_example').text
+    answer = dictionary.getTransFromDict("example_usage")
+    driver.find_element_by_id('answer').send_keys(str(answer))
