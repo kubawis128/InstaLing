@@ -15,40 +15,33 @@ class Dictionary:
        #pol = pol.replace(",","")
        #deu = str(deu).replace("    ","")
        #pol = str(pol).replace("    ","")
-       for i in deu:
-           i = i.replace(",","")
-       for i in pol:
-           i = i.replace(",","")
        return [deu,pol]
 
-def ocrImage(ImagePath):
-    # Load Image
-    image = cv2.imread(str(ImagePath))
-    image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    # Smooth out image
-    kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
-    image = cv2.filter2D(image, -1, kernel)
-    # Denoise image
-    image = cv2.medianBlur(image,5)
-    # OCR the image
-    custom_config = r'-l pol+deu --oem 3 --psm 6 -c tessedit_char_whitelist="AĄBCĆEĘFGHIJKLŁMNŃOÓPRSŚTUVWXŹZŻaąbcćdeęfghijklłmnńoópqrsśtuvwxźyzżäÄéöÖüÜUß -,"'
-    ocr = pytesseract.image_to_string(image, config=custom_config)
-    # Return string
-    return str(ocr)
-###
-# input:  string
-# return: Lista
-###
-def splitDeuPol(text):
+    def ocrImage(ImagePath):
+        # Load Image
+        image = cv2.imread(str(ImagePath))
+        image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        # Smooth out image
+        kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
+        image = cv2.filter2D(image, -1, kernel)
+        # Denoise image
+        image = cv2.medianBlur(image,5)
+        # OCR the image
+        custom_config = r'-l pol+deu --oem 3 --psm 6 -c tessedit_char_whitelist="AĄBCĆEĘFGHIJKLŁMNŃOÓPRSŚTUVWXŹZŻaąbcćdeęfghijklłmnńoópqrsśtuvwxźyzżäÄéöÖüÜUß -,"'
+        ocr = pytesseract.image_to_string(image, config=custom_config)
+        # Return string
+        return str(ocr)
 
-    #NIE DOTYKAĆ To Rozdziela polskie i niemieckie słówka!!!
-    regex = " [-*_]([^\s]*) "
-    text = re.sub(regex,"",text)
-    #Usun podwojne linie
-    regex = "\n\n"
-    text = re.sub(regex,"\n",text)
+    def splitDeuPol(text):
 
-    return str(text)
+        #NIE DOTYKAĆ To Rozdziela polskie i niemieckie słówka!!!
+        regex = " [-*_]([^\s]*) "
+        text = re.sub(regex,"",text)
+        #Usun podwojne linie
+        regex = "\n\n"
+        text = re.sub(regex,"\n",text)
+
+        return str(text)
 
 #print(splitDeuPol(ocrImage('image.jpg')))
 text = """
