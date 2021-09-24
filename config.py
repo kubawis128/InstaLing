@@ -2,7 +2,7 @@ import configparser
 config = configparser.ConfigParser()
 def loadConf():
     config.read('config.conf')
-def getBrowserConf(name):
-    browser = config['browser']
-    return browser.get(name)
+def getConf(selection,name):
+    conf = config[selection]
+    return conf.get(name)
 loadConf()

@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # Reads config and selects 
 def setupBrowser():
     global driver
-    browser = config.getBrowserConf('browser')
+    browser = config.getConf('browser','browser')
     if browser == "Firefox":
         driver = webdriver.Firefox()
     elif browser == "Chrome":
@@ -25,8 +25,8 @@ def setupBrowser():
 # Waits until you are logged in
 def setupPage():
     global driver
-    driver.get(config.getBrowserConf('login'))
-    WebDriverWait(driver, 1000).until(EC.url_contains(config.getBrowserConf('home')))
+    driver.get(config.getConf('browser','login'))
+    WebDriverWait(driver, 1000).until(EC.url_contains(config.getConf('browser','home')))
 
 # Begins Session
 # Loads into session
