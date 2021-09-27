@@ -1,23 +1,26 @@
-#Read Config
+# Read Config
 import config
 
-#Get or save words
+# Get or save words
 import dictionary
 
-#Browser stuff
+# Browser stuff
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-#import for most used word
+# import for most used word
 from statistics import mode
 
-#Google Translator
+# Google Translator
 from googletrans import Translator
 
-#REGEX
+# REGEX
 import re 
+
+# Spanko
+from time import sleep
 
 # Setup Browser
 # Reads config and selects 
@@ -64,9 +67,9 @@ def start():
         translation = translator.translate(pol_word,src='pl',dest='de')
         final = mode(translation.text.split())
         if ',' in translation.text:
-            re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
-        re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
-        re.sub(",", "",final)
+            final = re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
+        final = re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
+        final = re.sub(",", "",final)
         driver.find_element_by_id('answer').send_keys(str(final))
         checkIfOk()
 
@@ -84,7 +87,13 @@ def checkIfOk():
         else:
             final = example_usage + " $ " + driver.find_element_by_id('word').text
             dictionary.writeToDict(final)
-
+def exit():
+    global driver
+    try:
+        driver.close()
+        driver.quit()
+    except:
+        return 0 
 
 # Init function
 def init():
