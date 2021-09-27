@@ -1,11 +1,23 @@
 #Read Config
 import config
+
 #Get or save words
 import dictionary
+
 #Browser stuff
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+
+#import for most used word
+from statistics import mode
+
+#Google Translator
+from googletrans import Translator
+
+#REGEX
+import re 
 
 # Setup Browser
 # Reads config and selects 
@@ -31,14 +43,53 @@ def setupPage():
 # Begins Session
 # Loads into session
 def beginSession():
-    dictionary.readDict()
+    WebDriverWait(driver, 1000).until(EC.visibility_of_element_located((By.CLASS_NAME, 'sesion')))
     content = driver.find_element_by_class_name('sesion')
     driver.get(content.get_attribute("href"))
-    WebDriverWait(driver, 1000).until(EC.invvisibility_of(driver.find_element_by_class_name('big_button')))
+    driver.find_element_by_id('continue_session_page').click()
+    WebDriverWait(driver, 1000).until(EC.invisibility_of_element_located((By.ID, 'continue_session_page')))
+    driver.find_element_by_id('start_session_button').click()
 
 # Starts exercises
 def start():
-    pol_word = driver.find_element_by_class_name('translations').text
+    global example_usage
+    dictionary.readDict()
+    WebDriverWait(driver, 1000).until(EC.visibility_of_element_located((By.CLASS_NAME, 'usage_example')))
     example_usage = driver.find_element_by_class_name('usage_example').text
-    answer = dictionary.getTransFromDict("example_usage")
-    driver.find_element_by_id('answer').send_keys(str(answer))
+    answer = dictionary.getTransFromDict(example_usage)
+    if answer != 0:
+        driver.find_element_by_id('answer').send_keys(str(answer))
+    else:
+        pol_word = driver.find_element_by_class_name('translations').text
+        translation = translator.translate(pol_word,src='pl',dest='de')
+        final = mode(translation.text.split())
+        if ',' in translation.text:
+            re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
+        re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
+        re.sub(",", "",final)
+        driver.find_element_by_id('answer').send_keys(str(final))
+        checkIfOk()
+
+# Checks if answer was ok
+def checkIfOk():
+    global driver
+    global example_usage
+    WebDriverWait(driver, 1000).until(EC.visibility_of_element_located((By.ID, 'word')))
+    try:
+        driver.find_element_by_class_name('green')
+        driver.find_element_by_class_name('red')
+    except:
+        if driver.find_element_by_id('word').text == "":
+            driver.execute_script("alert('EMM... odowiedz jest pusta HELP');")
+        else:
+            final = example_usage + " $ " + driver.find_element_by_id('word').text
+            dictionary.writeToDict(final)
+
+
+# Init function
+def init():
+    global translator
+    translator = Translator()
+    setupBrowser()
+    setupPage()
+    beginSession()
