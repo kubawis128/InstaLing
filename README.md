@@ -5,10 +5,15 @@ InstaLing Bot
 # Requierments
 
 ``` tktinter ```
+
 ``` python3 + pip```
+
 ``` selenium ```
+
 ``` googletrans ``` == 4.0.0-rc1
+
 ``` ttkthemes ```
+
 ``` geckodriver ```
 
 # Installing
