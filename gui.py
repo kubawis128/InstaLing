@@ -8,11 +8,11 @@ autorunning = False
 def init():
     global btn2
     global window
-    window = ThemedTk(theme='winxpblue')
+    window = ThemedTk(theme='arc')
     window.title("Instaling bot")
     window.geometry('350x200')
-    s = ttk.Style()
-    s.configure('TButton', foreground='white')
+    #s = ttk.Style()
+    #s.configure('TButton', foreground='white')
     btn = ttk.Button(window, text="Init hander", command=initHandler)
     btn.place(relx=0.5, rely=0.2, anchor=tk.CENTER)
     btn1 = ttk.Button(window, text="Solve task", command=solve)

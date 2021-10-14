@@ -49,7 +49,10 @@ def beginSession():
     WebDriverWait(driver, 1000).until(EC.visibility_of_element_located((By.CLASS_NAME, 'sesion')))
     content = driver.find_element_by_class_name('sesion')
     driver.get(content.get_attribute("href"))
-    driver.find_element_by_id('continue_session_page').click()
+    try:
+        driver.find_element_by_id('continue_session_page').click()
+    except:
+        driver.find_element_by_id('start_session_button').click()
     WebDriverWait(driver, 1000).until(EC.invisibility_of_element_located((By.ID, 'continue_session_page')))
     driver.find_element_by_id('start_session_button').click()
 
@@ -60,18 +63,19 @@ def start():
     WebDriverWait(driver, 1000).until(EC.visibility_of_element_located((By.CLASS_NAME, 'usage_example')))
     example_usage = driver.find_element_by_class_name('usage_example').text
     answer = dictionary.getTransFromDict(example_usage)
-    if answer != 0:
-        driver.find_element_by_id('answer').send_keys(str(answer))
-    else:
-        pol_word = driver.find_element_by_class_name('translations').text
-        translation = translator.translate(pol_word,src='pl',dest='de')
-        final = mode(translation.text.split())
-        if ',' in translation.text:
+    if driver.find_element('id','answer').get_attribute('value') == "":
+        if answer != 0:
+            driver.find_element_by_id('answer').send_keys(str(answer))
+        else:
+            pol_word = driver.find_element_by_class_name('translations').text
+            translation = translator.translate(pol_word,src='pl',dest='de')
+            final = mode(translation.text.split())
+            if ',' in translation.text:
+                final = re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
             final = re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
-        final = re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
-        final = re.sub(",", "",final)
-        driver.find_element_by_id('answer').send_keys(str(final))
-        checkIfOk()
+            final = re.sub(",", "",final)
+            driver.find_element_by_id('answer').send_keys(str(final))
+            checkIfOk()
 
 # Checks if answer was ok
 def checkIfOk():
