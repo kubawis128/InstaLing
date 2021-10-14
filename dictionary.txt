@@ -102,3 +102,4 @@ Es ist ____ für diese Jahreszeit. $ warm
 Es ist zu ______, um drinnen zu bleiben. $ sonnig
 Im Winter ist es _______. $ frostig
 Heute ist es sehr ______. $ windig
+Gestern war es ____. $ kalt

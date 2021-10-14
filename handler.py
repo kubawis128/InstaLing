@@ -68,7 +68,7 @@ def start():
             driver.find_element_by_id('answer').send_keys(str(answer))
         else:
             pol_word = driver.find_element_by_class_name('translations').text
-            translation = translator.translate(pol_word,src='pl',dest='de')
+            translation = translator.translate(pol_word,src=config.getConf('translator','from'),dest=config.getConf('translator','to'))
             final = mode(translation.text.split())
             if ',' in translation.text:
                 final = re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
