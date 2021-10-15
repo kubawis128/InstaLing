@@ -43,4 +43,4 @@ pip3 install wheel
 pip3 install selenium googletrans==4.0.0-rc1 ttkthemes
 ```
 
-Download [this](https://github.com/mozilla/geckodriver/releases) and unzip to %appdata%\..\Local\Programs\Python\Python310\ 
+Download [this](https://github.com/mozilla/geckodriver/releases) and unzip to %appdata%\\..\Local\Programs\Python\Python310\ 
