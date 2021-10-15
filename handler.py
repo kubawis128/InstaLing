@@ -21,7 +21,7 @@ import re
 
 # Spanko
 from time import sleep
-
+import gui
 # Setup Browser
 # Reads config and selects 
 def setupBrowser():
@@ -75,6 +75,11 @@ def start():
     if driver.find_element('id','answer').get_attribute('value') == "":
         if answer != 0:
             driver.find_element_by_id('answer').send_keys(str(answer))
+            if config.getConf('automode','fullAuto') == "true":
+                driver.find_element('id','check').click()
+                sleep(float(config.getConf('automode','sleepAuto')))
+                driver.find_element('id','nextword').click()
+
         else:
             pol_word = driver.find_element_by_class_name('translations').text
             translation = translator.translate(pol_word,src=config.getConf('translator','from'),dest=config.getConf('translator','to'))
@@ -84,6 +89,9 @@ def start():
             final = re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
             final = re.sub(",", "",final)
             driver.find_element_by_id('answer').send_keys(str(final))
+            if config.getConf('automode','fullAuto') == "true":
+                sleep(float(config.getConf('automode','sleepAuto')))
+                driver.find_element('id','check').click()
             checkIfOk()
 
 # Checks if answer was ok
@@ -98,11 +106,15 @@ def checkIfOk():
         if driver.find_element_by_id('word').text == "":
             try:
                 driver.execute_script("alert('EMM... odowiedz jest pusta HELP');")
+                gui.auto_solve()
             except:
                 pass
         else:
             final = example_usage + " $ " + driver.find_element_by_id('word').text
             dictionary.writeToDict(final)
+            if config.getConf('automode','fullAuto') == "true":
+                sleep(float(config.getConf('automode','sleepAuto')))
+                driver.find_element('id','nextword').click()
 def exit():
     global driver
     try:

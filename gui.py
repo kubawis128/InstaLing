@@ -45,7 +45,10 @@ def auto_solve():
     global autorunning
     if autorunning == True:
         autorunning = False
-        t.cancel()
+        try:
+            t.cancel()
+        except:
+            pass
         btn2['text'] = "Start Auto Mode"
     else:
         autorunning = True
@@ -58,6 +61,14 @@ def auto_loop():
         handler.start()
         t = threading.Timer(int(config.getConf('automode','sleep')), auto_loop)
         t.start()
+def stopAuto():
+    global t
+    global autorunning
+    autorunning = False
+    try:
+        t.cancel()
+    except:
+        pass
 def exit():
     global window
     handler.exit()
