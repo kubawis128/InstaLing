@@ -57,13 +57,19 @@ def beginSession():
     except:
         driver.find_element_by_id('start_session_button').click()
     WebDriverWait(driver, 1000).until(EC.invisibility_of_element_located((By.ID, 'continue_session_page')))
-    driver.find_element_by_id('start_session_button').click()
+    try:
+        driver.find_element_by_id('start_session_button').click()
+    except:
+        pass
 
 # Starts exercises
 def start():
     global example_usage
     dictionary.readDict()
-    WebDriverWait(driver, 1000).until(EC.visibility_of_element_located((By.CLASS_NAME, 'usage_example')))
+    try:
+        WebDriverWait(driver, 1000).until(EC.visibility_of_element_located((By.CLASS_NAME, 'usage_example')))
+    except:
+        pass
     example_usage = driver.find_element_by_class_name('usage_example').text
     answer = dictionary.getTransFromDict(example_usage)
     if driver.find_element('id','answer').get_attribute('value') == "":
@@ -90,7 +96,10 @@ def checkIfOk():
         driver.find_element_by_class_name('red')
     except:
         if driver.find_element_by_id('word').text == "":
-            driver.execute_script("alert('EMM... odowiedz jest pusta HELP');")
+            try:
+                driver.execute_script("alert('EMM... odowiedz jest pusta HELP');")
+            except:
+                pass
         else:
             final = example_usage + " $ " + driver.find_element_by_id('word').text
             dictionary.writeToDict(final)

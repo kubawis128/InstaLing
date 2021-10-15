@@ -41,19 +41,22 @@ def solve():
 
 def auto_solve():
     global btn2
+    global t 
     global autorunning
     if autorunning == True:
         autorunning = False
+        t.cancel()
         btn2['text'] = "Start Auto Mode"
     else:
         autorunning = True
         btn2['text'] = "Stop Auto Mode"
     auto_loop()
 def auto_loop():
+    global t 
     global autorunning
     if autorunning:
         handler.start()
-        t = threading.Timer(5.0, auto_loop)
+        t = threading.Timer(int(config.getConf('automode','sleep')), auto_loop)
         t.start()
 def exit():
     global window
