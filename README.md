@@ -2,6 +2,16 @@
 
 InstaLing Bot
 
+# Launching
+Open command line in parent directory
+### Linux:
+```
+$ python3 main.py
+```
+### Windows
+```
+py main.py
+```
 # Requierments
 
 ``` tktinter ```

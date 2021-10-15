@@ -103,3 +103,6 @@ Es ist zu ______, um drinnen zu bleiben. $ sonnig
 Im Winter ist es _______. $ frostig
 Heute ist es sehr ______. $ windig
 Gestern war es ____. $ kalt
+Der Wetterbericht meldet _____. $ der Regen
+Die _____ scheint. $ die Sonne
+Morgen wird es ________. $ schneien
