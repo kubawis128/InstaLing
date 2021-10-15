@@ -41,6 +41,9 @@ def setupBrowser():
 def setupPage():
     global driver
     driver.get(config.getConf('browser','login'))
+    driver.find_element('id','log_email').send_keys(str(config.getConf('login','login')))
+    driver.find_element('id','log_password').send_keys(str(config.getConf('login','passwd')))
+    driver.find_element('css selector',"button.btn.btn-primary.w-100.mt-3.mb-3").click()
     WebDriverWait(driver, 1000).until(EC.url_contains(config.getConf('browser','home')))
 
 # Begins Session
