@@ -15,10 +15,11 @@ def init():
     window.title("Instaling bot")
     window.geometry('350x200')
     lang = tk.StringVar(window)
-    lang.set("en")
+    lang.set("de")
+    x = threading.Thread(target=initHandler)
     #s = ttk.Style()
     #s.configure('TButton', foreground='white')
-    btn = ttk.Button(window, text="Init hander", command=initHandler)
+    btn = ttk.Button(window, text="Init hander", command=x.start)
     btn.place(relx=0.5, rely=0.2, anchor=tk.CENTER)
     btn1 = ttk.Button(window, text="Solve task", command=solve)
     btn1.place(relx=0.5, rely=0.4, anchor=tk.CENTER)
@@ -26,7 +27,7 @@ def init():
     btn2.place(relx=0.5, rely=0.6, anchor=tk.CENTER)
     btn3 = ttk.Button(window, text="Quit", command=exit)
     btn3.place(relx=0.5, rely=0.8, anchor=tk.CENTER)
-    list = ttk.OptionMenu(window, lang, "en","en", "de",command=changeLang)
+    list = ttk.OptionMenu(window, lang, "de","de", "en",command=changeLang)
     list.place(relx=0.1, rely=0.1, anchor=tk.CENTER)
     window.mainloop()
     
@@ -61,14 +62,6 @@ def auto_loop():
         handler.start()
         t = threading.Timer(int(config.getConf('automode','sleep')), auto_loop)
         t.start()
-def stopAuto():
-    global t
-    global autorunning
-    autorunning = False
-    try:
-        t.cancel()
-    except:
-        pass
 def exit():
     global window
     handler.exit()

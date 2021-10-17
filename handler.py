@@ -79,7 +79,7 @@ def start():
                 driver.find_element('id','check').click()
                 sleep(float(config.getConf('automode','sleepAuto')))
                 driver.find_element('id','nextword').click()
-
+                return 0
         else:
             pol_word = driver.find_element_by_class_name('translations').text
             translation = translator.translate(pol_word,src=config.getConf('translator','from'),dest=config.getConf('translator','to'))
@@ -93,7 +93,9 @@ def start():
                 sleep(float(config.getConf('automode','sleepAuto')))
                 driver.find_element('id','check').click()
             checkIfOk()
-
+            return 0
+    else:
+        return 0
 # Checks if answer was ok
 def checkIfOk():
     global driver
@@ -107,14 +109,17 @@ def checkIfOk():
             try:
                 driver.execute_script("alert('EMM... odowiedz jest pusta HELP');")
                 gui.auto_solve()
+                return 0 
             except:
                 pass
+                return 0 
         else:
             final = example_usage + " $ " + driver.find_element_by_id('word').text
             dictionary.writeToDict(final)
             if config.getConf('automode','fullAuto') == "true":
                 sleep(float(config.getConf('automode','sleepAuto')))
                 driver.find_element('id','nextword').click()
+            return 0
 def exit():
     global driver
     try:
