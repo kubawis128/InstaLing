@@ -83,11 +83,13 @@ def start():
         else:
             pol_word = driver.find_element_by_class_name('translations').text
             translation = translator.translate(pol_word,src=config.getConf('translator','from'),dest=config.getConf('translator','to'))
-            final = mode(translation.text.split())
             if ',' in translation.text:
+                final = mode(translation.text.split())
                 final = re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
-            final = re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
-            final = re.sub(",", "",final)
+                final = re.sub("[^A-Za-zäßäÄéöÖüÜ\s]+", "",final)
+                final = re.sub(",", "",final)
+            else:
+                final = translation.text
             driver.find_element_by_id('answer').send_keys(str(final))
             if config.getConf('automode','fullAuto') == "true":
                 sleep(float(config.getConf('automode','sleepAuto')))
