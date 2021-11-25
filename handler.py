@@ -45,7 +45,7 @@ def setupPage():
     driver.find_element('id','log_password').send_keys(str(config.getConf('login','passwd')))
     driver.find_element('css selector',"button.btn.btn-primary.w-100.mt-3.mb-3").click()
     WebDriverWait(driver, 1000).until(EC.url_contains(config.getConf('browser','home')))
-
+    driver.execute_script("Object.defineProperty(navigator, 'webdriver',{get: () => false})")
 # Begins Session
 # Loads into session
 def beginSession():
@@ -77,6 +77,11 @@ def start():
             driver.find_element_by_id('answer').send_keys(str(answer))
             if config.getConf('automode','fullAuto') == "true":
                 driver.find_element('id','check').click()
+                if config.getConf('skip','know') == "true":
+                    WebDriverWait(driver, 3).until(EC.visibility_of_element_located((By.ID, 'know_new')))
+                    driver.find_element_by_id('know_new').click()
+                    WebDriverWait(driver, 3).until(EC.visibility_of_element_located((By.ID, 'skip')))
+                    driver.find_element_by_id('skip').click()
                 sleep(float(config.getConf('automode','sleepAuto')))
                 driver.find_element('id','nextword').click()
                 return 0
