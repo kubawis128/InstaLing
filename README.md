@@ -3,7 +3,9 @@
 InstaLing Bot
 
 # Launching
+
 Open command line in parent directory
+
 ### Linux:
 ```
 $ python3 main.py
@@ -14,13 +16,16 @@ py main.py
 ```
 # Requierments
 
-``` tktinter ```
+
+``` googletrans ``` == 4.0.0-rc1
 
 ``` python3 + pip```
 
+### NOTE: Only when using GUI
+
 ``` selenium ```
 
-``` googletrans ``` == 4.0.0-rc1
+``` tktinter ```
 
 ``` ttkthemes ```
 
@@ -36,6 +41,12 @@ $ sudo pip3 install tk selenium googletrans==4.0.0-rc1 ttkthemes
 ```
 
 # On Windows
+
+## POST request:
+
+```pip 3 install googletrans==4.0.0-rc1 ```
+
+## Selenium:
 Install Mozilla Firefox
 
 ```
