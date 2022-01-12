@@ -1,278 +1,52 @@
-Der Film dauert zu _____. $ lange
-Wir bleiben __ ______ zu Hause. $ am besten
-Lass uns aufhören und eine _____ machen. $ die Pause
-Ich hatte letzte Nacht einen _____________ Traum. $ schrecklich
-Ich habe ____ gelernt. $ viel 
-Ist das ________________? $ umweltfreundlich
-Es hat zu viele _________. $ der Nachteil
-Meine Wohnung hat viele ________. $ die Vorteile
-______________, wie spät ist es? $ Entschuldigung
-Ich muss schon gehen oder bin ich _________. $ verspätet
-Ich wohne lieber auf dem Land als in der _____. $ Stadt
-Ärzte vermuten, dass Rauchen eng mit Krebs in __________ steht. $ Verbindung
-Wie ___ bist du? $ alt
-Ich bin ganz ________, ich kann mich mit dir an jedem Tag treffen. $ flexibel
-Es ist _________, einen Laptop mit sich zu haben. $ praktisch
-Geht ihr __ ___ in die Schule? $ zu Fuß 
-Im Urlaub will ich nach Spanien ______. $ fahren
-Was ___ mit dir ___? $ los sein
-Ich habe vor, nach Asien zu ______. $ reisen
-Er steht ___ bei der Tür. $ nah
-Seine Arbeit in der Fabrik finde ich ganz __________. $ gefährlich 
-Im Frühling gehe ich ____ Mütze. $ ohne
-Ich reise ____ in angenehmer Gesellschaft. $ gern
-Ich habe den ____ gebucht. $ der Flug
-Fahren Sie ins _______? $ das Ausland
-Der Bus hält ______ vor meinem Haus. $ direkt
-Das scheint mir ___________! $ interessant
-_____ gehst du? $ Wohin
-Das Buch ist ______. $ billig
-Sie sollten mit öffentlichen _______________ fahren. $ das Verkehrsmittel
-Ich ___ ein Sportfan. $ sein
-____ ist der Brief, den du suchst. $ hier
-Ist es noch ____? $ weit
-Hier können wir ____ die ______ nicht _____. Es gibt keinen Fußgängerübergang. $ über die Straße gehen
-Wie ____ fliegt das Flugzeug? $ hoch
-Mein Onkel wohnt __ ___ ____ meiner Schule. $ in der Nähe
-Schnell _____ ___ , der Zug fährt gleich. $ einsteigen
-Zuerst _____ Sie einhundert Meter _________. $ geradeaus gehen
-Darf ich noch ein Stück Zucker in meinen Kaffee ______? $ nehmen
-Gehen Sie immer _________ ! $ geradeaus
-Biegen Sie _____ ab, bitte. $ links
-Ich brauche keinen Aufzug, ich ____ lieber. $ gehen
-Biegen Sie bei der nächsten _____ rechts ab. $ Kurve
-An der nächsten Kreuzung müssen Sie links ________. $ abbiegen
-Wo muss ich __________? $ aussteigen
-Wir haben uns auf dem _____ getroffen. $ der Platz
-Nehmen Sie _____! $ der Platz
-Du sollst an der ________ aufpassen! $ die Kreuzung
-Der Bus fuhr an der ___________ vorbei. $ die Haltestelle
-Der Fahrer hat die _____ übersehen. $ die Ampel
-Möchtest du ins Kino oder ins _______ gehen? $ das Theater
-Besuchst du noch die ______? $ die Schule
-Ich gehe alle zwei Tage ins __________. $ das Restaurant
-Wer verschickt noch Briefe mit der ____? $ die Post
-Ich bin im ___________. $ das Krankenhaus
-Gehst du mit mir ins ____? $ das Kino
-Die Zimmer in diesem _____ hier sind sehr angenehm. $ das Hotel
-Die ____ macht schon um vier Uhr zu. $ die Bank
-Neben der ____ steht ein Baum. $ die Bank
-Komme ich hier zum _______? $ der Bahnhof
-Ich suche eine ________. $ die Apotheke
-Alle seltenen Dinge sind _____. $ teuer
-Gehen Sie etwa einhundert Meter die ______ geradeaus. $ die Straße
-Sie ging _______ und dann begann sie zu laufen. $ schnell
-Ich habe einen _________ gerade vor dem Gebäude gefunden. $ der Parkplatz
-Ich gehe in den ____ spazieren. $ der Park
-Wenn du krank bist, sollst du im Bett ______. $ liegen
-Nach ______ und dann geradeaus bis zum Ende. $ rechts
-Kannst du mir das Buch ______? $ leihen
-Du siehst ___ aus! $ gut
-Die Musik ist sehr ____! Kannst du sie bitte leiser machen? $ laut
-Der Film war __________. $ langweilig
-Hast du ihn _____________? $ kennenlernen
-Die Abwässer der Stadt werden durch unterirdische ______ in die Kläranlage geleitet. $ der Kanal
-Paris ist die __________ von Frankreich. $ die Hauptstadt
-Der nächste Halt ist ''Berlin ____________''. $ der Hauptbahnhof
-Geh bitte. Ich _____ dich nicht. $ halten
-Hamburg ist der größte _____ in Deutschland. $ der Hafen
-Fahren Sie mit der ___________. $ die Straßenbahn
-Ich lebe gern in einer _________. $ die Großstadt
-Hier können wir ____ die ______ nicht _____. Es gibt keinen Fußgängerübergang. $ über die Straße gehen
-Kannst du mich zum _________ bringen? $ der Flughafen
-Die _____ in die Stadt dauert eine halbe Stunde. $ die Fahrt
-Ich möchte gern den Dom ___________. $ besichtigen
-Der neue Wagen ist ganz ______. $ bequem
-Wir bleiben nicht zu Hause. Wir ______ ins Ausland. $ fahren
-Du fährst am besten ___ ___ ___. $ mit dem Zug
-Wann kann ich die Sachen bei dir _______ ? $ abholen
-Wir müssen den Schlüssel ______. $ finden
-Ich _____ das Kleid sehr modisch. $ finden
-Die Schule ist _____ vom Park. $ links
-Die Schule ist _____ vom Park. $ links
-Das Kino ist ______ vom Theater. $ rechts
+Das _____ ist sehr elegant. $ Sakko
+Ich muss noch eine _____ anziehen. $ Bluse
+In diesem See darf man kein ____ ______. $ Boot fahren
+Das _____ ist sehr elegant. $ Sakko
+Wer geht ______? $ zuerst
+Ich muss noch eine _____ anziehen. $ Bluse
+Wir ______ morgen eine Geburtstagsparty. $ machen
+In diesem See darf man kein ____ ______. $ Boot fahren
+Mir gefallen diese ______.  $ Hemden
+Wir ______ morgen eine Geburtstagsparty. $ machen
+Ich _______  Englisch fließend. $ spreche
+Mir gefallen diese ______.  $ Hemden
 Wie lange sollen wir noch ______? $ warten
-Es gibt keinen Bus, wir müssen also __ ___ _____. $ zu Fuß gehen
-Auf dem ___ von Warschau nach Berlin habe ich meine Tasche verloren. $ der Weg
-Wie viele Bücher ________ sich auf dem Tisch? $ sich befinden
-An ____________ Tagen passieren schnell Verkehrsunfälle. $ regnerisch
-Heute ist es ______. $ neblig
-In der Nacht ist es _______. $ bewölkt
-Es ist ____ für diese Jahreszeit. $ warm
-Es ist zu ______, um drinnen zu bleiben. $ sonnig
-Im Winter ist es _______. $ frostig
+Ich _______  Englisch fließend. $ spreche
+Sie werden übermorgen ein Fest ______. $ feiern
+Wie lange sollen wir noch ______? $ warten
 Heute ist es sehr ______. $ windig
-Gestern war es ____. $ kalt
-Der Wetterbericht meldet _____. $ der Regen
-Die _____ scheint. $ die Sonne
-Morgen wird es ________. $ schneien
-Der Mond _______ hell. $ scheinen
-Der ______ ist meine Lieblingsjahreszeit. $ der Winter
-Im ______ werden die Blätter gelb. $ der Herbst
-Der ________ kommt nach dem Winter. $ der Frühling
-Diesen ______ gehe ich nach Amerika. $ der Sommer
-Sie sind ins _______ gefahren, um Ski zu fahren. $ das Gebirge
-Die Insel ist nur auf dem _________ zugänglich. $ der Wasserweg
-Die Zugspitze ist der höchste ____ in Deutschland. $ der Berg
-Wir _______ heute zu Hause. $ bleiben
-Ich kann sehr gut ___ ______. $ Ski fahren
-Am Nachmittag ____ ich _________. $ spazieren gehen
-Der Wind ____. $ wehen
-Ich werde sie morgen anrufen, wenn ich ___________. $ zurückkommen
-Ich werde sie morgen anrufen, wenn ich ___________. $ zurückkommen
-Ich wohne am ____. $ das Meer
-Habt ihr einen guten _________________? $ der Internetanschluss
-Gute _____! $ die Nacht
-Es würde dich allerdings weniger kosten, wenn du bei uns ___________ würdest. $ übernachten
-Warum bist du __________? $ enttäuscht
-Warum bist du __________? $ enttäuscht
-Ich werde die ____________ machen. $ die Reservierung
-Was gibt es zu _____? $ essen
-Lass uns heute Abend mal _________. $ fernsehen
-Das _____ ist meistens ganz gut. $ das Essen
-Es würde dich allerdings weniger kosten, wenn du bei uns ___________ würdest. $ übernachten
-Ich brauche eine neue ______. $ die Brille
-Der Film war __________. $ langweilig
-Das ganze ________ ist stolz auf seine Arbeit. $ das Personal
-Der Computer funktioniert ________. Er ist kaputt. $ schlecht
-Die Maschine ist leider ______. $ kaputt
-Die Bluse ist sehr _________. $ schmutzig
-Ich trinke ______ gern. $ das Wasser
-Das war ein großes ______ . $ das Zimmer
-Das war ein großes ______ . $ das Zimmer
-Bist du _________? $ zufrieden
-Hier ist mein _______. $ der Ausweis
-Nach der Hochzeit planen wir eine __________ nach Asien. $ die Traumreise
-Ich _______ meine Familie zweimal pro Woche. $ besuchen
-Ich soll noch ______. $ packen
-Ich habe meinen ________ vergessen. $ der Rucksack
-Was für ein großer __________! $ der Supermarkt
-Die Ferien sollen wir noch genau ______. $ planen
-Gestern war es ____. $ kalt
-Als ich in England war, konsultierte ich oft den ___________. $ der Reiseführer
-Ich muss noch das Hotel ______. $ buchen
-Ich muss noch das Hotel ______. $ buchen
-Haben Sie einen _________? $ der Stadtplan
-Ich möchte gerne einen Sitz ___________. $ reservieren
-Ich habe mir ein neues Hemd _______. $ kaufen
-Maria _____ viele _____ von ihrer Katze. $ Fotos machen
-Kannst du mir das bitte ______? $ zeigen
-____ ist nicht alles! $ das Geld
-Keine Sorge, ich kann ___ dem Bus ______. $ mit dem Bus fahren
-Glückliche _____! $ die Reise
-Seine Großmutter kann ganz spannende Geschichten ________ . $ erzählen
-Du sollst dein Zimmer _________. $ aufräumen
-Ich reise ____ in angenehmer Gesellschaft. $ gern
-Meine Eltern lassen mich sonntags ___________. $ ausschlafen
-Abends _______ ich oft meine _______. $ Freunde besuchen
-Die Schüler und Schülerinnen _________ morgen eine Prüfung. $ schreiben
-Ich _______ Englisch fließend. $ sprechen
-Ich ____ sehr viel. $ lesen
-Möchtest du im August ___ _______ ______? $ ins Ausland fahren
-Kannst du _________? $ schwimmen
-Ich gehe gern _______. $ wandern
-Mit dem ______ zu reisen dauert länger als mit dem Auto. $ das Schiff
-Gibt es ______ in Stuttgart? $ die U-Bahn
-Unser ___ ist leider verspätet. $ der Zug
-Das ________ aus Berlin hat Verspätung. $ das Flugzeug
-Sonntags _____ er immer _______. $ Fahrrad fahren
-Ich fahre oft mit der ______. $ die S-Bahn
-Vorsicht, fahr nicht an den ____! $ der Baum
-Ich fahre oft mit dem _______. $ das Fahrrad
-Ich fahre oft mit dem _______. $ das Fahrrad
-Wann kommt der nächste ___? $ der Bus
-Ich wusste nicht, dass du ______ kannst! $ surfen
-Mieten wir ein ____? $ das Boot
-Man kann hier fischen und ____ ______. $ Boot fahren
-Der _____ von Orangensaft ist immer höher als der von Apfelsaft. $ der Preis
-Ich habe Ferien in Warschau _________. $ verbringen
-Was ist der größte ___ in Deutschland? $ der See
-Hast du schon eine _________? $ die Fahrkarte
-Wenn du müde bist, wieso gehst du nicht ________? $ schlafen
-Die Heimat der Vögel ist der ____. $ der Wald
-Ich mag es, in heißem Wasser zu _____. $ baden
-Am Sonntag ______ wir oft ___. $ Rad fahren
-Der Gipfel war mit ______ bedeckt. $ der Schnee
-Wie heißt dieser _____? $ der Fluss
-Ich habe keinen _________ zu Hause. $ der Fernseher
-Der Zimmerpreis ist _________ Frühstück. $ inklusive
-Der _________ befindet sich im ersten Stock. $ der Waschraum
-Auf diesem _______ werden Messehallen errichtet. $ das Gelände
-Mein ____ ist Michael. $ der Name
-Ich _______ Ihnen alles Gute. $ wünschen
-Es ist schwierig, ein ________ mit jemandem zu führen, der nur ''Ja'' und ''Nein'' sagt. $ das Gespräch
-Ich will einen neuen _____ kaufen. $ der Wagen
-Ich habe vergessen deine ____________. $ die Zimmernummer
-In Polen gibt man Freunden die Hand zur _________. $ die Begrüßung
-Die Rechnung ______ nicht. $ stimmen
-___ bekommen Sie? $ was
-___ _____ lernst du Deutsch? $ wie lange
-__ kann man Eintrittskarten kaufen? $ wo
-Drogen und Alkoholgetränke sind in der Schule nicht _______. $ erlaubt
-Wir müssen uns um die _____ kümmern. $ die Natur
-Ich mag _____. $ die Tiere
-Es gibt keine ___________, dass ich dir helfe. $ die Möglichkeit
-Das Buch steht nicht an seinem ___! $ der Ort
-Vielen Dank für Ihr freundliches _______! $ das Angebot
-Ist das Geschäft rund um die Uhr ________ ? $ geöffnet
- Übers Wochenende sind bei uns Freunde zu ____. $ der Gast
-Die _______ mit dem Auto dauert etwa zwei Stunden. $ die Anreise
-Jedes Zelt hat einen ______________. $ der Stromanschluss
-Ich bin _____ auf dich! $ stolz
-Hast du etwas damit zu ___? $ tun
-Kostenlos für ___________ und Kinder unter 16. $ die Jugendliche
-Hast du ______? $ die Kinder
-Ich habe meinen ____ vergessen! $ der Pass
-Haben Sie Platz für ein ____? $ das Zelt
-Gibt es eine __________ für Studenten? $ die Ermäßigung
-Ich _____ dir immer ___ _________. $ zur Verfügung stehen
-Der _______________ ist kleiner als Fußballplatz. $ der Volleyballplatz
-Im Dorf gibt es eine Bibliothek und einen ____________. $ der Fußballplatz
-Ich frühstücke _____ um 7 Uhr. $ immer
-Das Fenster ist _____. $ offen
-Als ich jünger ___, aß ich viel Süßigkeiten. $ war
-Wenn du Hunger _______, warum hast du nichts gegessen? $ hatte
-Wir _____ zwei Söhne und eine Tochter. $ haben
-Wir ______ im Test nicht abschreiben. $ dürfen
-______ wir auf den Bus warten, oder zu Fuß gehen? $ sollen
-Wir ______ heute viel arbeiten. $ müssen
-Ich ______ nicht gern. $ fliegen
-Wir ______ nicht schwimmen, aber wir laufen sehr schnell. $ können
-Wir ______ dieses Jahr ins Ausland fahren. $ wollen
-Wir können erst ab 15 Uhr __________. $ einchecken
-Ein ____________ ist noch frei. $ das Einzelzimmer
-Wohnung hat nur eine ______ . $ die Dusche
-Wir haben vier ____________ und zwei Einzelzimmer. $ das Doppelzimmer
-Wir haben kein großes ___ . $ das Bad
-Wir wünschen Ihnen einen angenehmen __________. $ der Aufenthalt
-Bei der _________ müssen Sie Ihren Ausweis vorzeigen. $ die Anmeldung
-______ Sie bitte dieses Formular ___. $ ausfüllen
-______ Sie bitte dieses Formular ___. $ ausfüllen
- $ die Pension
-In der ______________ sind alle Zimmer ohne Bad. $ die Jugendherberge
-In der ______________ sind alle Zimmer ohne Bad. $ die Jugendherberge
-Zwei Kilometer vom Bahnhof entfernt ist eine _______. $ die Pension
-___ __________! Die Gegend ist gefährlich. $ Sei vorsichtig!
-____ ist unser Haus. $ dort
-Ich übernachte in den Ferien am liebsten auf dem ____________. $ der Campingplatz
-Trockener ____ absorbiert Wasser. $ der Sand
-Ohne die ___________ wäre es zu heiß. $ die Klimaanlage
-Ein _____ zieht auf. $ der Sturm
-Die deutschen Berge ________ mir sehr gut. $ gefallen
-Wie ____________ der Automat? $ funktionieren
-In der heutigen ______ sprechen wir über die Umwelt. $ die Stunde
-Im ______ ist es heiß und schwül. $ der August
-Es tut mir ____. $ leid
-Die Verkäuferin im Laden war sehr _________. $ unhöflich
+Diese ________ und jene Jacke passen gut zusammen. $ Krawatte
+Wer geht ______? $ zuerst
+Ich hatte vor, heute an den ______ zu gehen, aber dann fing es an zu regnen. $ Strand
+Die ____________ in Polen dauern 2 Monate. $ Sommerferien
+Diese ________ und jene Jacke passen gut zusammen. $ Krawatte
+Wir haben kein ________. $ Haustier
+Sie werden übermorgen ein Fest ______. $ feiern
+Am Meer haben wir ________. $ gezeltet
+Wir haben kein ________. $ Haustier
+Biegen Sie bei der nächsten _____ rechts ab. $ Kurve
+Die ____________ in Polen dauern 2 Monate. $ Sommerferien
+ Eine _________ für diesen Kurs ist nicht mehr möglich. $ Anmeldung
+Wir haben Pfannkuchen zum _________ gemacht. $ Frühstück
 Ich esse __ ______ gegen 16:00 Uhr. $ zu Mittag
-Ich will mich ______. $ sich sonnen
-Er ist mit dem Ergebnis ___________. $ unzufrieden
-Dafür musst du nichts bezahlen, das ist _________. $ kostenlos
-_____________ Sie bitte! $ entschuldigen
-Island ist voller Geysire und _________. $ der Gletscher
-Vierzig Tage lebte er in der _____. $ die Wüste
-Zum Dessert möchten wir ein Stück Schokoladentorte _________. $ bestellen
-_____ steht ein Regal. $ vorne
-Der Roman hat über 300 ______. $ die Seite
-Für die Getränke muss man _____ bezahlen. $ extra
-Es gibt hier kein _____! $ das Licht
+Biegen Sie bei der nächsten _____ rechts ab. $ Kurve
+Am Meer haben wir ________. $ gezeltet
+Ich esse __ ______ gegen 16:00 Uhr. $ zu Mittag
+Wir haben kein ________. $ Haustier
+Die ____________ in Polen dauern 2 Monate. $ Sommerferien
+Am Meer haben wir ________. $ gezeltet
+Ich _______  Englisch fließend. $ spreche
+Mir gefallen diese ______.  $ Hemden
+Nach zwei Wochen bin ich nach Hause _____________. $ zurückgekehrt
+Ich muss noch eine _____ anziehen. $ Bluse
+Diese ________ und jene Jacke passen gut zusammen. $ Krawatte
+Wer geht ______? $ zuerst
+Das _____ ist sehr elegant. $ Sakko
+Wir ______ morgen eine Geburtstagsparty. $ machen
+In diesem See darf man kein ____ ______. $ Boot fahren
+Sie werden übermorgen ein Fest ______. $ feiern
+Fahren Sie mit der ___________. $ Straßenbahn
+Der Fitnessraum ist im Wellness-Bereich in der obersten _____. $ Etage
+Ich werde sie morgen anrufen, wenn ich ___________. $ zurückkomme
+Weißt du zufällig, wo ich meine _________ hingelegt habe? $ Schlüssel
+Wie viel kostet eine ____________ mit Frühstück? $ Übernachtung

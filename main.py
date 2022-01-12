@@ -1,2 +1,3 @@
-import gui
-gui.init()
+import requestsHandler as rH
+rH.init()
+rH.loop()
